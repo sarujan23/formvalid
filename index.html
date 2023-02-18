@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form onsubmit="return myfunc()">
+    <H1>Login</H1>
+      <label for="user">Name</label><br>
+      <input type="text"   id="name"  autocomplete="off"><br>
+      <p id="NameError" ></p>
+      
+        <label for="email">Email</label><br>
+        <input type="text"   id="email"  autocomplete="off"><br>
+        <p id="EmailError" ></p>
+
+
+        <label for="Pnumber">Phone Number</label><br>
+        <input type="text"   id="Phonenumber"  autocomplete="off"><br>
+        <p id="PhonenumberError"></p>
+
+
+        <label for="ZipCode">Zip Code</label><br>
+        <input type="text"   id="ZipCode"  autocomplete="off"><br>
+        <p id="ZipCodeError"></p>
+    
+    <input id="Submit" type="submit"  >
+
+  </form>
+  <script src="/form.js"></script>
+</body>
+</html>

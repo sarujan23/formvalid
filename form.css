@@ -1,0 +1,27 @@
+div{
+    margin-left: 700px;
+    margin-top: 100px;
+}
+#submit{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(166, 156, 156);
+}
+
+#name{
+    padding-left:30px ;
+    padding-right: 30px;
+}
+#email{
+    padding-left:30px ;
+    padding-right: 30px;
+
+}
+#zipcode{
+    padding-left:30px ;
+    padding-right: 30px;
+}
+#phone{
+    padding-left:30px ;
+    padding-right: 30px;
+}
